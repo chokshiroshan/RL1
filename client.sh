@@ -3,4 +3,5 @@
 # run the client
 
 
-java -cp .:./target/classes:lib/*.jar client.Client
+
+java -cp .:./target/classes:lib/*.jar client.Client $1
